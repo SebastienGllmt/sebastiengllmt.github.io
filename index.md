@@ -6,7 +6,7 @@ You can find me on Twitter at [@sebastiengllmt](https://twitter.com/SebastienGll
 
 # Content
 
-I try to create a lot of content for the Cardano Ecosystem. 
+I create technical content for the Cardano ecosystem
 
 I upload to the Emurgo channel on [Youtube](https://www.youtube.com/channel/UCgFQ0hHuPO1QDcyP6t9KZTQ)
 and also have some content on my [personal channel](https://www.youtube.com/c/SebastienGuillemot)
