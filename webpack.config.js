@@ -1,4 +1,6 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const InterpolateHtmlPlugin = require("interpolate-html-plugin");
+const webpack = require('webpack');
 
 const htmlWebpackPlugin = new HtmlWebPackPlugin({
   template: "./public/index.html",
@@ -35,5 +37,14 @@ module.exports = {
       }
     ]
   },
-  plugins: [htmlWebpackPlugin]
+  plugins: [htmlWebpackPlugin,
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify(process.env.NODE_ENV),
+        PUBLIC_URL: JSON.stringify(process.env.PUBLIC_URL)
+      }
+    }),
+    new InterpolateHtmlPlugin({
+      'PUBLIC_URL': process.env.PUBLIC_URL
+    })]
 };

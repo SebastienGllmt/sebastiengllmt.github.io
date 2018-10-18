@@ -12,8 +12,8 @@ function Introduction() {
         <p>My name is Sebastien Guillemot. </p>
         <p>I work as an R&amp;D Engineering Lead for <a href="https://emurgo.io/">Emurgo</a> focusing on the <a href="https://www.cardano.org">Cardano</a> project. I write code and create educational content.</p>
         <h3> How to pronounce my name</h3>
-        <audio src="public/audio/sebastien.mp3" controls/>< br/>
-        <audio src="public/audio/guillemot.mp3" controls/>
+        <audio src={process.env.PUBLIC_URL + "/audio/sebastien.mp3"} controls/>< br/>
+        <audio src={process.env.PUBLIC_URL + "/audio/guillemot.mp3"} controls/>
         <h2>Personal channels</h2>
         <SocialIcon url="http://twitter.com/SebastienGllmt" />
         <SocialIcon url="https://github.com/SebastienGllmt" />
@@ -31,7 +31,7 @@ function Notes() {
         <h1>Notes</h1>
         <p>Check out some notes I took (embedded within the papers)</p>
         <ul>
-            <li><a href="public/papers/nipopows_annotated.pdf">NiPoPoW</a></li>
+            <li><a href={process.env.PUBLIC_URL + "/papers/nipopows_annotated.pdf"}>NiPoPoW</a></li>
         </ul>
     </div>
     );
