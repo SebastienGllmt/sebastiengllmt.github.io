@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sebastiengllmt.github.io/",
+  "homepage": "http://sebastiengllmt.com",
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
