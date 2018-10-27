@@ -32,6 +32,7 @@ function Notes() {
         <p>Check out some notes I took (embedded within the papers)</p>
         <ul>
             <li><a href={process.env.PUBLIC_URL + "/papers/nipopows_annotated.pdf"}>NiPoPoW</a></li>
+            <li><a href={process.env.PUBLIC_URL + "/papers/incentive_annotated.pdf"}>Reward Sharing Schemes for Stake Pools (Incentive Paper)</a></li>
         </ul>
     </div>
     );
