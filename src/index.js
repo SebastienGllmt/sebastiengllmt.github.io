@@ -11,8 +11,8 @@ function Introduction() {
         <h1><img src={process.env.PUBLIC_URL + "/me.jpg"} alt="" width='75px' height='75px'/> Introduction </h1>
         <p>My name is Sebastien Guillemot. </p>
         <p>I'm the CTO &amp; co-founder of <a href="https://dcspark.io/"><img src={process.env.PUBLIC_URL + "/dcSpark.png"} alt="" width='15px' height='15px'/>dcSpark</a>< br/>
-        I previously worked as the Co-VP of Eng. & Cardano PM for <a href="https://emurgo.io/"><img src={process.env.PUBLIC_URL + "/emurgo.png"} alt="" width='15px' height='15px'/>Emurgo</a><br />
-        I usually focusing on the <a href="https://www.cardano.org"><img src={process.env.PUBLIC_URL + "/cardano.png"} alt="" width='15px' height='15px'/>Cardano</a> project where I write code, standards and create educational content.</p>
+        I'm also a co-founder of <a href="https://paimastudios.com/"><img src={process.env.PUBLIC_URL + "/paima.png"} alt="" width='15px' height='15px'/>Paima Studios</a>< br/><br />
+        I usually write code, draft standards and create educational content.</p>
         <h3> How to pronounce my name</h3>
         <audio src={process.env.PUBLIC_URL + "/audio/sebastien.mp3"} controls/>< br/>
         <audio src={process.env.PUBLIC_URL + "/audio/guillemot.mp3"} controls/>
@@ -20,10 +20,13 @@ function Introduction() {
         <SocialIcon url="http://twitter.com/SebastienGllmt" />
         <SocialIcon url="https://github.com/SebastienGllmt" />
         <SocialIcon url="https://www.youtube.com/c/SebastienGuillemot" />
-        <h2>Work channels</h2>
+        <h2>Work channels (dcSpark)</h2>
         <SocialIcon url="https://www.youtube.com/channel/UC-S2_W1qS9YcKxhx6vt0SjQ" />
         <SocialIcon url="https://medium.com/dcspark" />
         <SocialIcon url="http://twitter.com/dcspark_io" />
+        <h2>Work channels (Paima)</h2>
+        <SocialIcon url="https://www.youtube.com/@paimastudios" />
+        <SocialIcon url="http://twitter.com/PaimaStudios" />
     </div>
     );
 }

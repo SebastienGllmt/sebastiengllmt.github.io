@@ -26,11 +26,11 @@ module.exports = {
           {
             loader: "css-loader",
             options: {
-              modules: true,
+              modules: {
+                localIdentName: "[name]_[local]_[hash:base64]",
+              },
               importLoaders: 1,
-              localIdentName: "[name]_[local]_[hash:base64]",
               sourceMap: true,
-              minimize: true
             }
           }
         ]
@@ -40,7 +40,6 @@ module.exports = {
   plugins: [htmlWebpackPlugin,
     new webpack.DefinePlugin({
       'process.env': {
-        NODE_ENV: JSON.stringify(process.env.NODE_ENV),
         PUBLIC_URL: JSON.stringify(process.env.PUBLIC_URL)
       }
     }),
