@@ -10,9 +10,18 @@ function Introduction() {
     <div>
         <h1><img src={process.env.PUBLIC_URL + "/me.jpg"} alt="" width='75px' height='75px'/> Introduction </h1>
         <p>My name is Sebastien Guillemot. </p>
-        <p>I'm the CTO &amp; co-founder of <a href="https://dcspark.io/"><img src={process.env.PUBLIC_URL + "/dcSpark.png"} alt="" width='15px' height='15px'/>dcSpark</a>< br/>
-        I'm also a co-founder of <a href="https://paimastudios.com/"><img src={process.env.PUBLIC_URL + "/paima.png"} alt="" width='15px' height='15px'/>Paima Studios</a>< br/><br />
+        <p>I'm the co-founder of
+        <ul>
+            <li><a href="https://dcspark.io/"><img src={process.env.PUBLIC_URL + "/dcSpark.png"} alt="" width='15px' height='15px'/>dcSpark</a></li>
+            <li><a href="https://paimastudios.com/"><img src={process.env.PUBLIC_URL + "/paima.png"} alt="" width='15px' height='15px'/>Paima Studios</a></li>
+            {/* <li><a href="https://milkomeda.com/"><img src={process.env.PUBLIC_URL + "/milkomeda.png"} alt="" width='15px' height='15px'/>Milkomeda</a></li>
+            <li><a href="https://zeko.io/"><img src={process.env.PUBLIC_URL + "/zeko.png"} alt="" width='15px' height='15px'/>Zeko</a></li>
+            <li><a href="https://tbd.com/"><img src={process.env.PUBLIC_URL + "/shinkai.png"} alt="" width='15px' height='15px'/>Shinkai</a></li> */}
+        </ul>
+
         I usually write code, draft standards and create educational content.</p>
+
+        I operate the「<a href="https://cexplorer.io/pool/pool1h4gwh638485yd0xcw0pkrm935nvm4aecqsxjx2yzzz0u6dfj73q/">SEBA</a>」 pool
         <h3> How to pronounce my name</h3>
         <audio src={process.env.PUBLIC_URL + "/audio/sebastien.mp3"} controls/>< br/>
         <audio src={process.env.PUBLIC_URL + "/audio/guillemot.mp3"} controls/>
