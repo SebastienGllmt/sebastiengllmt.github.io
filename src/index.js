@@ -22,6 +22,8 @@ function Introduction() {
         I usually write code, draft standards and create educational content.</p>
 
         I operate the「<a href="https://cexplorer.io/pool/pool1h4gwh638485yd0xcw0pkrm935nvm4aecqsxjx2yzzz0u6dfj73q/">SEBA</a>」pool. Announcement <a href="https://twitter.com/SebastienGllmt/status/1684002101893140480">here</a>.
+
+        My dRep ID is <a href="https://cexplorer.io/governance/drep/drep1kyppjlhz4lawh4g0ewx2d8a5l20t4yclfnppnuvdkmt7vccg836/governance/">drep1kyppjlhz4lawh4g0ewx2d8a5l20t4yclfnppnuvdkmt7vccg836</a>」.
         <h3> How to pronounce my name</h3>
         <audio src={process.env.PUBLIC_URL + "/audio/sebastien.mp3"} controls/>< br/>
         <audio src={process.env.PUBLIC_URL + "/audio/guillemot.mp3"} controls/>
