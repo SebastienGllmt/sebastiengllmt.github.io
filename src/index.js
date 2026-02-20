@@ -10,13 +10,14 @@ function Introduction() {
     <div>
         <h1><img src={process.env.PUBLIC_URL + "/me.jpg"} alt="" width='75px' height='75px'/> Introduction </h1>
         <p>My name is Sebastien Guillemot. </p>
+        <p>Currently working (as of 2026) as the CTO of the <a href="https://midnight.foundation/"><img src={process.env.PUBLIC_URL + "/midnight.png"} alt="" width='15px' height='15px'/>Midnight foundation</a></p>
         <p>I'm the co-founder of
         <ul>
             <li><a href="https://dcspark.io/"><img src={process.env.PUBLIC_URL + "/dcSpark.png"} alt="" width='15px' height='15px'/>dcSpark</a></li>
-            <li><a href="https://paimastudios.com/"><img src={process.env.PUBLIC_URL + "/paima.png"} alt="" width='15px' height='15px'/>Paima Studios</a></li>
+            {/* <li><a href="https://paimastudios.com/"><img src={process.env.PUBLIC_URL + "/paima.png"} alt="" width='15px' height='15px'/>Paima Studios</a></li> */}
             {/* <li><a href="https://milkomeda.com/"><img src={process.env.PUBLIC_URL + "/milkomeda.png"} alt="" width='15px' height='15px'/>Milkomeda</a></li>
             <li><a href="https://zeko.io/"><img src={process.env.PUBLIC_URL + "/zeko.png"} alt="" width='15px' height='15px'/>Zeko</a></li>
-            <li><a href="https://tbd.com/"><img src={process.env.PUBLIC_URL + "/shinkai.png"} alt="" width='15px' height='15px'/>Shinkai</a></li> */}
+            <li><a href="https://shinkai.com/"><img src={process.env.PUBLIC_URL + "/shinkai.png"} alt="" width='15px' height='15px'/>Shinkai</a></li> */}
         </ul>
 
         I usually write code, draft standards and create educational content.</p>
